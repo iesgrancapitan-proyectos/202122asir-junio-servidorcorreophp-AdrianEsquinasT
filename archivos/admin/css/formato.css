@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    width: 80vw;
+    background-image: url('../imagenes/silk.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: lavender;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+    font-size: 12pt;
+}
+
+#form_autenticacion {
+    background-color: white;
+    width: 70%;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid lightgray;
+    box-shadow: 3pt 2pt 1pt lightgray;
+    border-radius: 1vw;
+}
+
+.titulo_centrado {
+    text-align: center;
+}
+
+#logotipos {
+    margin: inherit;
+    text-align: center;
+}
+
+#login, #clave {
+    width: 15vw;
+}
+
+.campo_formulario {
+    font-weight: bold;
+    margin:1em;
+
+}
+
+.campo_formulario label {
+    display:inline-block;
+    width: 15vw;
+    text-align: right;
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid lightblue;
+    padding: 0.25em;
+    margin:  0.25em;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+input[type="submit"], button, .boton {
+    display: inline-block;
+    padding: 0 1vw;
+    line-height: 3em;
+    border: 1px solid transparent;
+    border-radius: 0.5em;
+    background-color: #EEE;
+    color: darkslategray;
+    font-size: inherit;
+    font-family: inherit;
+    text-align: center;
+    text-decoration: none; 
+    margin: 0.5em;
+
+    /* Propiedades para el icono de fondo */
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: 0.5em center;
+    padding-left: 48px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color:lightgray;
+    color: ligthblue;
+    
+}
+
+.boton:hover {
+    color: ligthblue;
+    background-color:lightgray;
+}
+
+.acciones {
+    display:inline-block;
+    padding: 0.1em 0.3em;
+}
+
+.listado {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    display: block;
+}
+
+.listado tbody {
+    display:block;
+    height: 50vh;
+    overflow: auto;
+    width: 82vw;
+}
+
+.listado thead {
+    display:block;
+    width: 90vw;
+}
+
+.listado thead tr {
+    background-color: lightslategrey;
+}
+
+.listado tbody tr {
+    background-color: lightgray;
+}
+
+.listado thead th {
+    font-weight: bold;
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    color: whitesmoke;
+}
+
+.listado td {
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    
+}
+
+.listado tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.negrita {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.aviso {
+    text-align: justify;
+}
+
+/* Botones con iconos */
+
+#nuevo_usuario {
+    background-image: url('../imagenes/usuario+bn.png');
+}
+
+#nuevo_usuario:hover {
+    background-image: url('../imagenes/usuario+.png');
+    border: 1px solid lightblue;
+}
+
+#eliminar_usuario {
+    background-image: url('../imagenes/usuario--bn.png');
+}
+
+#actualizar_usuario:hover {
+    background-image: url('../imagenes/usuario-.png');
+    border: 1px solid lightblue;
+}
+
+#actualizar_usuario {
+    background-image: url('../imagenes/usuario-bn.png');
+}
+
+#eliminar_usuario:hover {
+    background-image: url('../imagenes/usuario.png');
+    border: 1px solid lightblue;
+}
+
+#reconstruir_buzones {
+    background-image: url('../imagenes/database-bn.png');
+}
+
+#reconstruir_buzones:hover {
+    background-image: url('../imagenes/database.png');
+    border: 1px solid lightblue;
+}
+
+#salir {
+    background-image: url('../imagenes/salir-bn.png');
+}
+
+#salir:hover {
+    background-image: url('../imagenes/salir.png');
+    border: 1px solid lightblue;
+}
+
+#cambiar_clave {
+    background-image: url('../imagenes/clave-bn.png');
+}
+
+#cambiar_clave:hover {
+    background-image: url('../imagenes/clave.png');
+    border: 1px solid lightblue;
+}
+
+#entrar {
+    background-image: url('../imagenes/entrar-bn.png');
+}
+
+#entrar:hover {
+    background-image: url('../imagenes/entrar.png');
+    border: 1px solid lightblue;
+}
